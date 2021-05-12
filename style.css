@@ -1,0 +1,85 @@
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+
+body { 
+    background-color: #07394d;
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(44, 44, 182);
+    line-height: 1.5;
+
+}
+
+h1 { 
+    font-family:Arial, Helvetica, sans-serif;
+    color: darkblue;
+    font-size: 35px;
+}
+
+h2 { 
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(7, 7, 92, 0.692);
+    font-size: 30px;
+}
+
+h2 { 
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgba(25, 25, 155, 0.692);
+    font-size: 20px;
+}
+
+ul > li > a {
+    color: purple;
+    text-decoration: underline;
+}
+
+ul > li > a:hover { 
+ color: rgb(185, 39, 141)
+}
+
+.container { 
+    width: 500px;
+    margin: 0 auto;
+    background: rgb(175, 187, 238);
+    border:rgb(39, 85, 185);
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px rgb(15, 131, 240);
+    text-align: center;
+    padding: 5%;
+}
+
+.card { 
+    background: rgb(250, 218, 248);
+    border:rgb(231, 131, 198);
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px rgb(201, 88, 173);
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  .button { 
+    background-color:rgb(234, 178, 248);
+    border:rgb(201, 88, 173);
+    border-radius: 150px;
+    color: #21094e;
+  }
